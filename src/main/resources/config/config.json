@@ -1,0 +1,9 @@
+{
+  "inputPressureSrc" : "hdfs://SW_ICF//pressure//",
+  "inputTemperatureSrc" : "hdfs://SW_ICF//Temperature//",
+  "outputPressureSrc" : "hdfs://SW_ICF//pressure//processed//",
+  "outputTemperatureSrc" : "hdfs://SW_ICF//Temperature//processed//",
+  "temperatureColumnMapping": ["minimum","maximum","station","estimatedDiurnalMean"],
+  "pressureColumnMapping": ["station", "pressure_unit", "barometer_temperature_observations_1", "barometer_temperature_observations_2",
+    "barometer_temperature_observations_3", "thermometer_observations_1"]
+}
